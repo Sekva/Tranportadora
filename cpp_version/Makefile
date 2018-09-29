@@ -2,7 +2,7 @@ LIBFLAGS =
 CXX = g++
 
 SRC_DIR = ./src/
-OBJETOS_DIR = ./objects/
+OBJECTS_DIR = ./objects/
 BUILD_DIR = ./build/
 
 SRCS = main.cpp \
@@ -29,4 +29,5 @@ $(OBJS_FINAL) : $(OBJECTS_DIR)%.o : $(SRC_DIR)%.cpp
 	$(CXX) -c $< -o $@
 
 clean :
+	echo $(OBJS_FINAL)
 	rm  $(BIN) $(OBJS_FINAL)
