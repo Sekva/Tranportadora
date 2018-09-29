@@ -5,10 +5,8 @@ Cliente::Cliente(std::string nome, std::string cpf, Contato* contato, Endereco* 
 }
 
 void Cliente::modCliente(std::string nome, std::string cpf, Contato* contato, Endereco* endereco, int numNotaFiscal) {
-	
 	this->modPessoa(nome, cpf, contato, endereco);
 	this->numNotaFiscal = numNotaFiscal;
-
 }
 
 int Cliente::getNumNotaFiscal() {

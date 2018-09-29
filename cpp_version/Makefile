@@ -9,7 +9,8 @@ SRCS = main.cpp \
 endereco.cpp \
 contato.cpp \
 pessoa.cpp \
-cliente.cpp
+cliente.cpp \
+motorista.cpp
 
 BIN_NAME = trans
 
