@@ -10,7 +10,10 @@ endereco.cpp \
 contato.cpp \
 pessoa.cpp \
 cliente.cpp \
-motorista.cpp
+motorista.cpp \
+carga.cpp \
+veiculo.cpp \
+
 
 BIN_NAME = trans
 
@@ -21,6 +24,11 @@ OBJS_FINAL = $(OBJS:%.o=$(OBJECTS_DIR)%.o)
 BIN = $(BUILD_DIR)$(BIN_NAME)
 
 all : $(BIN)
+
+find:
+	$(eval CATO := $(shell ls ./src/*.cpp))
+	#$(eval CAT := $(CATO:.cpp=.cpp))
+	echo $(CAT)
 
 $(BIN) : $(OBJS_FINAL)
 	$(CXX) $(OBJS_FINAL) -o $(BIN) $(LIBFLAGS)
