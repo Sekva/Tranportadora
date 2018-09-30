@@ -1,0 +1,49 @@
+# PynSource Version 1.1
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin.'}
+{'type':'umlshape', 'id':'CadastrarCarga', 'x':1008, 'y':567, 'width':164, 'height':67, 'attrs':'', 'meths':'cadastrarCarga'}
+{'type':'umlshape', 'id':'CadastrarVeiculo', 'x':872, 'y':222, 'width':186, 'height':67, 'attrs':'', 'meths':'cadastrarVeiculo'}
+{'type':'umlshape', 'id':'Carga', 'x':1438, 'y':355, 'width':194, 'height':381, 'attrs':'material|peso|origem|destino|periculosidade|taxa|tamanhoConteiner|kmPercorrido|custoDeTrasporte|pontosDeParada|datas|id|cliente|custoTransporte', 'meths':'__init__|modKmPercorrido|addPontoDeParada|calcularCustoTransporte|__str__|infoCompleta'}
+{'type':'umlshape', 'id':'GUI_Tudo', 'x':23, 'y':53, 'width':314, 'height':365, 'attrs':'master|principal', 'meths':'__init__|ChamarJanelaIdadeMotorista|ChamarJanelaAnosTrabalhoMotorista|ChamarJanelaEnderecoMotorista|ChamarJanelaContatoMotorista|ChamarJanelaSalarioMotorista|ChamarJanelaDisponibilidadeMotorista|ChamarJanelaRemoverMotorista|ChamarJanelaDisponibilidadeVeiculo|ChamarJanelaRemoverVeiculo|ChamarJanelaAddPontoVeiculo|ChamarJanelaMostrarMotorista|ChamarJanelaMostrarVeiculo|ChamarJanelaMostrarHistoricoPrincipal|ChamarJanelaMostrarHistoricoCarga|ChamarJanelaMostrarHistoricoFinanceiro|sair'}
+{'type':'umlshape', 'id':'Note_CM', 'x':417, 'y':10, 'width':87, 'height':31, 'attrs':'', 'meths':''}
+{'type':'umlshape', 'id':'Note_CV', 'x':417, 'y':55, 'width':87, 'height':31, 'attrs':'', 'meths':''}
+{'type':'umlshape', 'id':'Note_CC', 'x':417, 'y':105, 'width':87, 'height':31, 'attrs':'', 'meths':''}
+{'type':'umlshape', 'id':'Cliente', 'x':1673, 'y':701, 'width':114, 'height':189, 'attrs':'nome|cpf|numNotaFiscal|contato|endereco', 'meths':'__init__|infoParciais|infoCompleta'}
+{'type':'umlshape', 'id':'Contato', 'x':1657, 'y':957, 'width':106, 'height':157, 'attrs':'telefone|email|site', 'meths':'__init__|modContato|infoCompleta'}
+{'type':'umlshape', 'id':'Endereco', 'x':1687, 'y':1235, 'width':106, 'height':221, 'attrs':'estado|cidade|bairro|rua|numeroCasa|complemento', 'meths':'__init__|modEndereco|infoParciais|infoCompleta'}
+{'type':'umlshape', 'id':'Gerenciador_BD', 'x':806, 'y':1305, 'width':258, 'height':371, 'attrs':'', 'meths':'colocarMotorista|colocarVeiculo|definirHistorico|inserirCarga|BDGastosGanhos|tirar|retornarInfoMotoristaDisponivel|retornarInfoVeiculoDisponivel|retornarInfoMotorista|retornarInfoVeiculo|retornarInfoCarga|retornarNotasFiscais|entregarHistorico|entregarMotoristas|entregarVeiculos|entregarMotoristasDisponiveis|entregarVeiculosDisponiveis|entregarMotoristasOcupados|entregarVeiculosOcupados|entregarDinheiros'}
+{'type':'umlshape', 'id':'Menus', 'x':35, 'y':480, 'width':290, 'height':861, 'attrs':'objHall|root|lbID|lb|lbEstado|lbCidade|lbBairro|lbRua|lbNumCasa|lbComplemento|lbTelefone|lbEmail|lbDisponibilidade|edID|ed|edEstado|edCidade|edBairro|edRua|edNumCasa|edComplemento|edTelefone|edEmail|bt', 'meths':'__init__|GUI_alterarMotoristaIdade|GUI_alterarMotoristaAnosTrabalho|GUI_alterarMotoristaEndereco|GUI_alterarMotoristaContato|GUI_alterarMotoristaSalario|GUI_alterarMotoristaDisponibilidade|GUI_alterarMotoristaRemover|GUI_alterarVeiculoDisponibilidade|GUI_alterarVeiculoRemover|GUI_alterarVeiculoAddPonto|GUI_mostrarMotorista|GUI_mostrarVeiculo|GUI_MostrarHistoricoPrincipal|GUI_MostrarHistoricoCarga|GUI_MostrarHistoricoFinanceiro|IdadeMotorista|AnosTrabalhoMotorista|EnderecoMotorista|ContatoMotorista|SalarioMotorista|DisponibilidadeMotorista|RemoverMotorista|DisponibilidadeVeiculo|RemoverVeiculo|AddPontoVeiculo'}
+{'type':'umlshape', 'id':'ChamaPopopizinho', 'x':377, 'y':155, 'width':186, 'height':31, 'attrs':'', 'meths':''}
+{'type':'umlshape', 'id':'Janelinhapop', 'x':349, 'y':252, 'width':142, 'height':157, 'attrs':'master|frame|texto|butaum', 'meths':'__init__|fechar'}
+{'type':'umlshape', 'id':'HallDeEntrada', 'x':576, 'y':22, 'width':218, 'height':1597, 'attrs':'ID|PLACA|COR|CAPACIDADE|c|ID_MOTORISTA|bd|checkid|cadastraVeic|v|idMoto|cpf|checkidcpf|nome|idade|anosTrabalhando|salario|telefone|email|site|estado|cidade|bairro|rua|numeroCasa|complemento|cadastrarMoto|m|idCarga|checkcarga|material|peso|periculosidade|tamanhoConteiner|origem|destino|kmPercorrido|datas|numNotaFiscal|contato|endereco|cliente|listaMotorista|contatoMotorista|enderecoMotorista|motoristaObj|listaVeiculo|carga1|carga|veiculoObj|condicao|idVeic|disponibilidade|listaCarga|lista11|str1|posicaoCarga|listaFinal|novaIdade|novoSalario|novoAnosTrabalho|novoEndereco|novoContato|pontoDeParada|contatoCliente|enderecocliente|clienteObj|cargaObj|l', 'meths':'criarVeiculo|criarMotorista|criarCarga|mudarDisponibilidadeVeic|mudarDisponibilidadeMoto|addCargaVeic|removerCargaVeic|modIdadeMotorista|modSalarioMotorista|modAnosTrabalhoMotorista|modEnderecoMotorista|modContatoMotorista|modMotoristaDeVeiculo|addPontoParada|removerVeiculoDaGaragem|removerMotoristaDaGaragem|infoDeVeiculo|infoDeMoto|infoCarga|mostrarHistorico|todosVeiculos|todosMotoristas|todosMotoristasDisponiveis|todosVeiculosDisponiveis|todosMotoristasOcupados|todosVeiculosOcupados|parteFiscal'}
+{'type':'umlshape', 'id':'TXTS', 'x':883, 'y':1805, 'width':54, 'height':31, 'attrs':'', 'meths':''}
+{'type':'umlshape', 'id':'CadastrarMotorista', 'x':1086, 'y':1352, 'width':208, 'height':67, 'attrs':'', 'meths':'cadastrarMotorista'}
+{'type':'umlshape', 'id':'Motorista', 'x':1363, 'y':1217, 'width':154, 'height':317, 'attrs':'idMoto|cpf|nome|idade|anosTrabalho|salario|disponibilidade|contato|endereco', 'meths':'__init__|modIdade|modAnosTrabalho|modSalario|modDisponibilidade|infoParciais|infoCompleta'}
+{'type':'umlshape', 'id':'Veiculo', 'x':1308, 'y':25, 'width':154, 'height':301, 'attrs':'idVeic|placa|cor|carga|capacidade|disponibilidade|idMotorista', 'meths':'__init__|addCarga|removerCarga|modMotorista|modDisponibilidade|retornaCargaStr|infoParciais|infoCompleta'}
+{'type':'edge', 'id':'GUI_Tudo_to_Note_CM', 'source':'GUI_Tudo', 'target':'Note_CM', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'GUI_Tudo_to_Note_CV', 'source':'GUI_Tudo', 'target':'Note_CV', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'GUI_Tudo_to_Note_CC', 'source':'GUI_Tudo', 'target':'Note_CC', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'Janelinhapop_to_ChamaPopopizinho', 'source':'Janelinhapop', 'target':'ChamaPopopizinho', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'ChamaPopopizinho_to_HallDeEntrada', 'source':'ChamaPopopizinho', 'target':'HallDeEntrada', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Gerenciador_BD_to_HallDeEntrada', 'source':'Gerenciador_BD', 'target':'HallDeEntrada', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'CadastrarVeiculo_to_HallDeEntrada', 'source':'CadastrarVeiculo', 'target':'HallDeEntrada', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Contato_to_HallDeEntrada', 'source':'Contato', 'target':'HallDeEntrada', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Endereco_to_HallDeEntrada', 'source':'Endereco', 'target':'HallDeEntrada', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Cliente_to_HallDeEntrada', 'source':'Cliente', 'target':'HallDeEntrada', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'CadastrarCarga_to_HallDeEntrada', 'source':'CadastrarCarga', 'target':'HallDeEntrada', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Carga_to_HallDeEntrada', 'source':'Carga', 'target':'HallDeEntrada', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'GUI_Tudo_to_Menus', 'source':'GUI_Tudo', 'target':'Menus', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'HallDeEntrada_to_GUI_Tudo', 'source':'HallDeEntrada', 'target':'GUI_Tudo', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'TXTS_to_Gerenciador_BD', 'source':'TXTS', 'target':'Gerenciador_BD', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Carga_to_CadastrarCarga', 'source':'Carga', 'target':'CadastrarCarga', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Motorista_to_CadastrarMotorista', 'source':'Motorista', 'target':'CadastrarMotorista', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Motorista_to_HallDeEntrada', 'source':'Motorista', 'target':'HallDeEntrada', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Veiculo_to_CadastrarVeiculo', 'source':'Veiculo', 'target':'CadastrarVeiculo', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Endereco_to_Motorista', 'source':'Endereco', 'target':'Motorista', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Cliente_to_Carga', 'source':'Cliente', 'target':'Carga', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Contato_to_Motorista', 'source':'Contato', 'target':'Motorista', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Contato_to_Cliente', 'source':'Contato', 'target':'Cliente', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'CadastrarMotorista_to_HallDeEntrada', 'source':'CadastrarMotorista', 'target':'HallDeEntrada', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Gerenciador_BD_to_CadastrarVeiculo', 'source':'Gerenciador_BD', 'target':'CadastrarVeiculo', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Gerenciador_BD_to_CadastrarCarga', 'source':'Gerenciador_BD', 'target':'CadastrarCarga', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Gerenciador_BD_to_CadastrarMotorista', 'source':'Gerenciador_BD', 'target':'CadastrarMotorista', 'uml_edge_type':'composition'}
+{'type':'edge', 'id':'Veiculo_to_Motorista', 'source':'Veiculo', 'target':'Motorista', 'uml_edge_type':'generalisation'}
